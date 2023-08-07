@@ -1,3 +1,6 @@
+
+
+
 .image-container {
     text-align: center;
     padding: 20px;
@@ -7,3 +10,24 @@
     max-width: 100%;
     height: auto;
 }
+
+body {
+    background-color: #a0cfeb;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height:100vh;
+}
+
+.header-text {
+    font-weight: 700; 
+    font-family: 'Fira Code', monospace;
+    font-size: 5em; /* You can adjust the size as needed */
+    background: linear-gradient(to top, rgb(0, 38, 99), rgb(0, 108, 201));
+    -webkit-background-clip: text; /* For Webkit browsers like Safari */
+    background-clip: text; /* Standard property */
+    color: transparent; /* Makes the text color transparent to show the background */
+    margin-top: 90px; 
+}
+   
