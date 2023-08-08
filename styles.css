@@ -23,7 +23,7 @@ body {
 .header-text {
     font-weight: 700; 
     font-family: 'Fira Code', monospace;
-    font-size: 5em; /* You can adjust the size as needed */
+    font-size: 72px; /* You can adjust the size as needed */
     background: linear-gradient(to top, rgb(0, 38, 99), rgb(0, 108, 201));
     -webkit-background-clip: text; /* For Webkit browsers like Safari */
     background-clip: text; /* Standard property */
@@ -31,3 +31,16 @@ body {
     margin-top: 90px; 
 }
    
+/* Media query for medium-sized screens (e.g., tablets) */
+@media screen and (max-width: 768px) {
+    .header-text {
+      font-size: 39px; /* Slightly smaller font size for medium screens */
+    }
+  }
+  
+  /* Media query for small screens (e.g., mobile phones) */
+  @media screen and (max-width: 480px) {
+    .header-text {
+      font-size: 34px; /* Even smaller font size for small screens */
+    }
+  }
