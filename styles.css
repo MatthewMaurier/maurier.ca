@@ -1,16 +1,4 @@
 
-
-
-.image-container {
-    text-align: center;
-    padding: 20px;
-}
-
-.image-container img {
-    max-width: 100%;
-    height: auto;
-}
-
 body {
     background-color: #a0cfeb;
     margin: 0;
@@ -29,18 +17,107 @@ body {
     background-clip: text; /* Standard property */
     color: transparent; /* Makes the text color transparent to show the background */
     margin-top: 90px; 
+    margin-bottom: 20px; 
+    margin-left: 30px;
 }
    
-/* Media query for medium-sized screens (e.g., tablets) */
+  
+.subheader-text {
+  font-weight: 400; 
+  font-family: 'Fira Code', monospace;
+  font-size: 25px; /* You can adjust the size as needed */
+  color: #0073cf; /* Choose a suitable color */
+  margin-left: 7px;  
+  max-width: 800px; /* Control the line length */
+  text-align: left; /* Center the text within its container */
+  margin-bottom: 20px; 
+}
+
+.navigation {
+  font-weight: 400; 
+  font-family: 'Fira Code', monospace;
+  font-size: 25px; /* You can adjust the size as needed */
+  color: #0073cf; /* Choose a suitable color */
+  margin: 3px;  
+  max-width: 800px; /* Control the line length */
+  text-align: center; /* Center the text within its container */
+  margin-bottom: 8px; 
+}
+
+  .find-me-here a {
+    display: inline-block;
+    color: #0077b5; /* LinkedIn's color */
+    font-size: 24px; /* Adjust size as needed */
+    text-decoration: none; /* Remove underline */
+    text-align: left;
+   
+  }
+  .find-me-here {
+   text-align: center;
+   }
+   
+  
+   .find-me-here img {
+    width: 75px; /* Adjust size as needed */
+    height: auto;
+   
+  }
+  .social-icons {
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the icons */
+  }
+  .linkedin-icon {
+   margin-left:-0px;
+  }
+  .insta-icon {
+    margin-left:25px;
+  }
+  .github-icon {
+    margin-left:25px;
+  }
+ 
+  .contact-me-here {
+    text-align: center;
+    }
+
+  .contact-me-here img {
+    width: 75px; /* Adjust size as needed */
+    height: auto;
+  }
+  .discord-icon {
+    margin-left:px;
+    text-decoration: none; /* Remove underline */
+  
+  }
+  .mail-icon {
+    margin-left:25px;
+  }
 @media screen and (max-width: 768px) {
-    .header-text {
-      font-size: 39px; /* Slightly smaller font size for medium screens */
+   
+  .header-text {
+      font-size: 47px; /* Slightly smaller font size for medium screens */
+      margin-bottom: 10px; 
+    }
+    .subheader-text {
+      font-size: 20px;
+    }
+    .navigation {
+      font-size: 20px;
     }
   }
-  
-  /* Media query for small screens (e.g., mobile phones) */
+ 
+ 
+ 
   @media screen and (max-width: 480px) {
     .header-text {
-      font-size: 34px; /* Even smaller font size for small screens */
+      margin-left: 15px; 
+      font-size: 33px; /* Even smaller font size for small screens */
+      margin-bottom: 7px; 
+    }
+    .subheader-text {
+      font-size: 17px;
+    }
+    .navigation {
+      font-size: 17px;
     }
   }
